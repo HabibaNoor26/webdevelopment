@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Portal</title>
+     <style>
+        body{
+            background-color: rgb(63, 63, 109);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Student Registration Portal</h1>
+        <hr>
+        <p>Training Institute Registration Form</p>
+        <hr>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" placeholder="Enter your Email" required>
+            <br>
+            <br>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="03XXXXXXXXX" required>
+            <br>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <laber for="courses">Courses:</laber>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="javascript">
+            <label for="javascript">JavaScript</label><br>
+
+            <input type="checkbox" id="bootstrap">
+            <label for="bootstrap">Bootstrap</label>
+            <br>
+            <br>
+            <label for="city">City</label>
+        <select id="city">
+
+            <option>Select City</option>
+
+            <option>Islamabad</option>
+
+            <option>Rawalpindi</option>
+
+            <option>Lahore</option>
+
+            <option>Karachi</option>
+
+            <option>Peshawar</option>
+
+           <option>Swabi</option>
+
+        </select>
+            <br>
+            <br>
+            <label for="address">Address:</label>
+            <textarea
+            id="address"
+            rows="5"
+            cols="30"
+            placeholder="Enter your address">
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+        </form>
+        <hr>
+        <p>© 2026 Student Registration Portal</p>
+
+    </center>
+</body>
+</html>
